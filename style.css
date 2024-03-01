@@ -1,0 +1,287 @@
+#header{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background: rgb(214, 182, 163);
+    box-shadow: 5px 15px 15px #e00909e8 ;
+    
+
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#navbar li{ 
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+font-weight: 600;
+color: black;
+transition: all .3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar li a.active
+{
+    color:blue;  
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content:"";
+    width: 40%;
+    height: 2px;
+    background: green;
+    position: absolute;
+    bottom:  -4px;
+    left: 20px;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero {
+  
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#bg {
+    background-image: url(img/images\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+<!--about us --
+/* Styles for the About Us section */
+.about {
+    padding: 50px 0; /* Adjust padding as needed */
+    background-color: #f9f9f9; /* Background color for the section */
+    text-align: center; /* Center-align text */
+}
+
+.about .container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: 0 auto; /* Center-align the container */
+}
+
+.about h2 {
+    font-size: 36px; /* Adjust the font size for the section title */
+    margin-bottom: 20px; /* Add spacing below the section title */
+}
+
+.about p {
+    font-size: 18px; /* Set font size for paragraph text */
+    margin-bottom: 20px; /* Add spacing between paragraphs */
+}
+
+.about h3 {
+    font-size: 24px; /* Set font size for team title */
+    margin-bottom: 20px; /* Add spacing below the team title */
+}
+
+/* Styles for Team Members */
+.team {
+    display: flex; /* Display team members in a row */
+    justify-content: center; /* Center-align team members horizontally */
+    flex-wrap: wrap; /* Wrap team members to the next line if necessary */
+}
+
+.team-member {
+    margin: 0 20px; /* Add spacing between team members */
+    max-width: 200px; /* Set maximum width for team member */
+}
+
+.team-member img {
+    width: 100%; /* Ensure team member images fill their container */
+    border-radius: 50%; /* Apply border radius for rounded images */
+    margin-bottom: 10px; /* Add spacing below team member images */
+}
+
+.team-member h4 {
+    font-size: 20px; /* Set font size for team member names */
+    margin-bottom: 5px; /* Add spacing below team member names */
+}
+
+.team-member p {
+    font-size: 16px; /* Set font size for team member roles */
+    color: #777; /* Set color for team member roles */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.container {
+    text-align: center; /* Center-align the content */
+    padding: 10px 0; /* Add some padding for spacing */
+    background-color: #f9f9f9; /* Set background color */
+    color: #333; /* Set text color */
+    font-size: 14px; /* Set font size */
+    border-top: 1px solid #ddd; /* Add a top border */
+}
+
+.container p {
+    margin: 0; /* Remove default margin for paragraph */
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Services section styles */
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
